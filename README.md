@@ -47,8 +47,7 @@ Receving an object from Redux store had two different types as the same componen
 <br>
 
 ### Author
+**Albert Arakelyan**
 * [LinkedIn Profile](https://www.linkedin.com/in/albert-arakelyan/)
 * [GitHub Profile](https://github.com/ALbert2504)
 
-
-**Albert Arakelyan**
