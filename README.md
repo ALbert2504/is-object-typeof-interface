@@ -26,8 +26,8 @@ interface IObj2 {
 const obj1: any = { foo: 'str', bar: 5 };
 const obj2: any = { baz: true, biz: 'str' };
 
-const result1 = isObjectInstanceOfInterface<IObj1>(obj1, 'foo');
-const result2 = isObjectInstanceOfInterface<IObj2>(obj2, 'baz');
+const result1 = isObjectTypeOfInterface<IObj1>(obj1, 'foo');
+const result2 = isObjectTypeOfInterface<IObj2>(obj2, 'baz');
 
 console.log('Result 1: ', result1); // true
 console.log('Result 2: ', result2); // true
