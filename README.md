@@ -11,7 +11,7 @@ $ npm install is-object-typeof-interface
 
 ## Usage
 ```ts
-import isObjectInstanceOfInterface from 'isObjectInstanceOfInterface';
+import isObjectTypeOfInterface from 'is-object-typeof-interface';
 
 interface IObj1 {
   foo: string;
@@ -29,8 +29,8 @@ const obj2: any = { baz: true, biz: 'str' };
 const result1 = isObjectInstanceOfInterface<IObj1>(obj1, 'foo');
 const result2 = isObjectInstanceOfInterface<IObj2>(obj2, 'baz');
 
-console.log('Result 1: ', result1);
-console.log('Result 2: ', result2);
+console.log('Result 1: ', result1); // true
+console.log('Result 2: ', result2); // true
 ```
 
 ## About
